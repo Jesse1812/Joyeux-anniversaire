@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+#title {
+  width: 400px;
+  height: 70px;
+  text-align: center;
+  color: red;
+}
+.box1,
+.box2,
+.box3 {
+  width: 400px;
+  height: 50px;
+  text-align: center;
+  background-color: hotpink;
+  color: white;
+  margin-bottom: 10px;
+}
+.box2 {
+  text-transform: uppercase;
+}
